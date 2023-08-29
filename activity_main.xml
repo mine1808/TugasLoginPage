@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingHorizontal="16dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#BFDBFE"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="32dp"
+        android:layout_marginBottom="82dp"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textColor="#1E293B"
+        android:textSize="42dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username:"
+            android:textColor="@color/black"
+            android:textSize="32px" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:hint="Masukkan username"
+            android:textColorHint="#5B697A"
+            android:textColor="@color/black"
+            android:textSize="32px"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password:"
+            android:textColor="@color/black"
+            android:textSize="32px" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:hint="Masukkan password"
+            android:textColorHint="#5B697A"
+            android:textColor="@color/black"
+            android:textSize="32px"/>
+
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="298dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:text="Log In"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:layout_marginHorizontal="35dp"
+        android:layout_marginTop="35dp"
+        android:backgroundTint="@color/black"
+        android:textAllCaps="false"/>
+
+</LinearLayout>
